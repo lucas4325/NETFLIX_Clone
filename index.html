@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/info.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="info" class="filme-info">
+        <h2>Wanda vision</h2>
+        <p class="produtora">
+            Marvel Studios apresenta uma nova era da televisão.
+        </p>
+        <h3>Sinopse</h3>
+        <img src="img/wanda2.jpg" alt="">
+        <p class="sinopse">
+            Wanda Maximoff e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece.
+        </p>
+        <h3 class="criaçao">
+            Criação
+        </h3>
+        <p class="criador">
+            Jac Schaeffer
+        </p>
+        <button class="botao2" class="b1" role='button'>ASSISTIR</button>
+        <button class="botao2" role='button' onclick="click1()">SAIR</button>
+    </div>
+    
+    <div id="info2" class="filme-info2">
+        <h2>Falcão e o Soldado Invernal</h2>
+        <p class="text">
+            Honre o escudo.
+        </p>
+        <h3>Sinopse</h3>
+        <img src="img/fsi2.jpg" alt="">
+        <p class="sinopse">
+            Após os eventos de "Vingadores: Ultimato",Sam Wilson/Falcão e Bucky Barnes/Soldado Invernal se unem em uma aventura que testa suas habilidades e a paciência.
+        </p>
+        <h3 class="criaçao">
+            Criação
+        </h3>
+        <p class="criador">
+            Malcolm Spellman
+        </p>
+        <button class="botao2" class="b1" role='button'>ASSISTIR</button>
+        <button class="botao2" role='button' onclick="click2()">SAIR</button>
+    </div>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descriçao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assista agora a nova temporada de house of cards que esta impertdivel</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div  id="wanda" class="item">
+                <img  src="img/mini1.jpg" alt="">
+            </div>
+            <div id="fsi" class="item">
+                <img class="box-filme" src="img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/c157d9fe4a.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>

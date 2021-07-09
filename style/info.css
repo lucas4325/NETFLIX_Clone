@@ -1,0 +1,220 @@
+.filme-info {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(10, 10, 10, .9);
+    color: white;
+    width: 70%;
+    height: 360px;
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 300px;
+    margin-left: -700px;
+}
+
+.filme-info h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.text {
+    color: rgb(184, 176, 176);
+    font-style: italic;
+}
+
+.filme-info h3 {
+    margin-left: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.filme-info p {
+    text-align: justify;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.filme-info .criaçao {
+    margin-bottom: 3px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.criaçao {
+    width: 10%;
+}
+
+.filme-info img {
+    width: 40%;
+    margin-left: 58%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.filme-info button {
+    color: white;
+    background-color: rgba(102, 102, 102, 0.4);
+    border: none;
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.b1 {
+    margin-right: 40px;
+}
+
+.info5 {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(10, 10, 10, .9);
+    color: white;
+    width: 70%;
+    height: 360px;
+    max-width: 600px;
+    margin-top: 300px;
+    margin-left: 10%;
+}
+
+.info5 h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.text {
+    color: rgb(184, 176, 176);
+    font-style: italic;
+}
+
+.info5 h3 {
+    margin-left: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.info5 p {
+    text-align: justify;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.info5 .criaçao {
+    margin-bottom: 3px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.criaçao {
+    width: 10%;
+}
+
+.info5 img {
+    width: 40%;
+    margin-left: 58%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.info5 button {
+    color: white;
+    background-color: rgba(102, 102, 102, 0.4);
+    border: none;
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.b1 {
+    margin-right: 40px;
+}
+
+.filme-info2 {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(10, 10, 10, .9);
+    color: white;
+    width: 70%;
+    height: 360px;
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 300px;
+    margin-left: -700px;
+}
+
+.filme-info2 h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.text {
+    color: rgb(184, 176, 176);
+    font-style: italic;
+}
+
+.filme-info2 h3 {
+    margin-left: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.filme-info2 p {
+    text-align: justify;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.filme-info2 .criaçao {
+    margin-bottom: 3px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.criaçao {
+    width: 10%;
+}
+
+.filme-info2 img {
+    width: 40%;
+    margin-left: 58%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.filme-info2 button {
+    color: white;
+    background-color: rgba(102, 102, 102, 0.4);
+    border: none;
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.b1 {
+    margin-right: 40px;
+}
